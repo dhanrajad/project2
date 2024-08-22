@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap CSS</title>
+    <link 
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style12.css">
+</head>
+<body>
+     <div class="container">
+        <h2>Form Demo</h2>
+        <form class="md-3">
+            <label class="form-label" for="email">Email</label>
+            <input 
+                type="text" 
+                class="form-control" 
+                placeholder="Email" 
+                id="email"
+            />
+            <label class="form-label" for="password">Password</label>
+            <input 
+                type="password" 
+                class="form-control" 
+                placeholder="Password" 
+                id="password"
+            />
+            <label class="form-label" for="address">Address</label>
+            <input 
+                type="text" 
+                class="form-control-sm" 
+                placeholder="Address" 
+                id="address" 
+            />
+            <div class="md-3">
+                <select class="fore-select">
+                    <option selected>Choose your city</option>
+                    <option value="1">Mumbai</option>
+                    <option value="2">Delhi</option>
+                    <option value="1">Pune</option>
+                    <option value="1">Bikaner</option>
+                </select>
+            </div>
+            <div class="normal md-3">                
+                <input type="checkbox" id="agree" /> 
+                <label for="agree">Agree</label>
+               
+            </div>
+            <div class="md-3 fore-check">                
+                <input type="checkbox" id="agreebs" class="fore-check-input"/>
+                <label for="agreebs" class="fore-check-label">Agree</label>
+            </div>
+            <div class="md-3 fore-check">                
+                <input type="radio" id="radiobs" class="fore-check-input"/>
+                <label for="radiobs" class="fore-check-label">Yes/No</label>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
