@@ -1,64 +1,134 @@
-// let msg = "     Hi baby           ";
-
-// let password = prompt("set your password");
-// console.log(password.trim());
-
-// let name = "Apna Colllege";
-
-// let msg = "error";
-// console.log(msg.toUpperCase());
-
-// let msg = "              habibi        ";
-// let nwMsg = msg.trim().toUpperCase();
-
-// let msg = "dhanrajcompany";
-// console.log(msg.slice(5));
-
-// let msg = "ILoveCoding";
-// console.log(msg.toUpperCase());
-
-// let name = "ApnaCollege";   
-
-// let cars = ["audi", "bmw", "xuv", "maruti" ];
-
-// let months = ["january", "july", "march", "august" ];
-
-// let game = [ ['X', null, 'O'],[null, 'X', null], ['O', null, 'X']]; 
+// console.log("1");
+// console.log("2");
+// console.log("3");
+// console.log("4");
+// console.log("5");
+// console.log("6");
 
 
-
-// 3. Write a JavaScript program to check whether a string is blank or not.
-// let str = prompt("pleae enter a string");
-
-// if(str.length == 0)  {
-//     console.log("string is empty");
-// } else {
-//     console.log("string is not empty");
+// for (let i=10; i>=5; i--){
+//     console.log(i) ;
 // }
 
-// Qs4. Write a JavaScript program to test whether the character at the given (character)
-// index is lower case.
-//  let str = "ApNaColLEgEe";
-//  let idx = 3;
+// for (let i=2; i<=6; i++){
+//     console.log(i);
+// }
 
-//  if(str[idx] == str[idx].toLowerCase()) {
-//      console.log("character is lowercase");
-//  } else {
-//      console.log("character is not lowercase") ;
+// console.log("odd no");
+// for (let i=1; i<=16; i=i+2){
+//     console.log(i);
+// }
+
+// console.log("backwords");
+
+// for (let i=15; i>=1; i=i-2){
+//     console.log(i);
+// }
+
+// console.log("even number");
+
+// for (let i=2; i<=10; i=i+2){
+//     console.log(i);
+// }
+
+// console.log("backword");
+
+// for (let i=10; i>=2; i=i-2){
+//     console.log(i);
+// }
+
+// console.log("multiplication");
+
+// for (let i=5; i<=50; i=i+5){
+//     console.log(i);
+// }
+
+// let n = prompt("write your number");
+// n = parseInt(n);
+
+// for (let i=n; i<=n*10; i=i+n){
+//     console.log(i);
+// } 
+
+// for (let i=1; i<=3; i++) {
+//     console.log(`outer loop ${i}`);
+//     for(let j=1; j<=3; j++){
+//         console.log(j);
+//     }
+// }
+
+ 
+// let i=1;
+
+// while(i<=6){
+//     console.log(i);
+//     i++;
+// }
+  
+// let i=6;
+
+// while(i>=1){
+//     console.log(i);
+//     i--;
+// }
+
+
+//  const favBook = "maths";
+
+//  let guess = prompt("guess my favorite book");
+
+//  while((guess != favBook && guess != "quit")){
+//     guess = prompt("wrong guess. please try again");
 //  }
 
+//  if(guess == favBook){
+//     console.log("congrats!!");
+//  } else {
+//     console.log("you quit the game");
+//  }
 
-// 5. Write a JavaScript program to strip leading and trailing spaces from a String.
-// let str = prompt("pllease enter a steing");
-// console.log(`original string = ${str}`);
-// console.log(`string withSout spaces = ${str.trim()}`);
+// const favMovie = "gollmall";
 
-// Qs6. Write a JavaScript program to check if an element exists in an array or not.
+//  let guess = prompt("guess my favorite movie");
 
-let arr = ["hello", 'a', 23, 25, 98, -43];
-let item = 64;
-if(arr.indexOf(item) != -1)  {
-    console.log("element exists in array");
-} else {
-    console.log("element does not exist in array");
-}
+//  while(guess != favMovie ){
+//    if(guess == "quit"){
+//       console.log("you quit");
+//       break;  ushing break condition
+//    }
+//     guess = prompt("wrong guess. please try again");
+//  }
+
+//  if(guess == favMovie){
+//     console.log("congrats..........!!");
+//  } 
+
+// let fruits = ["mango", "apple", "banana", "litchi", "orange"];
+// fruits.push("pineapple");
+
+// for (let i=0; i<fruits.length; i++ ) {
+//    console.log(i, fruits[i]);
+// }
+// for (let i=fruits.length-1; i>=0; i-- ) {
+//    console.log(i, fruits[i]);
+// }
+
+// let heroes = [["ironman", "spiderman", "thor"], ["superman", "wonder woman", "flash"]];
+
+// for (let i=0; i<heroes.length; i++ ) {
+//    console.log(`List #${i}`);
+//    for (let j=0; j<heroes[i].length; j++ ) {
+//       console.log(heroes[i][j]);
+//    }
+// }
+// let fruits = ["mango", "apple", "banana", "orange", "litchi"];
+
+// for(fruits of fruits) {
+//    console.log(fruits);
+// }
+
+
+
+
+
+
